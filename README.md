@@ -1,4 +1,4 @@
-# Data Preprocessing Project - Imbalanced classes problem
+# Data Preprocessing Project - Imbalanced Classification Problem
 
 
 ## Table of contents
