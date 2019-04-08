@@ -1,6 +1,8 @@
 # Data Preprocessing Project - Imbalanced classes problem
 
 
+## Table of contents
+
 
 1.	Introduction to imbalanced classes problem
 
