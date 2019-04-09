@@ -4,6 +4,9 @@
 ## Table of contents
 
 
+I have divided this project into various sections which are listed below:-
+
+
 1.	Introduction to imbalanced classes problem
 
 
