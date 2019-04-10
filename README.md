@@ -186,7 +186,7 @@ These four outcomes are summarized in a confusion matrix given below.
 Three metrics are used to evaluate a classification model performance. These are accuracy, precision and recall. These matrices are summarized below.
 
 
-**Accuracy**
+### Accuracy
 
 
 Accuracy is defined as the percentage of correctly classified observations. It can be calculated by dividing the number of correct predictions by the total number of predictions.
@@ -201,7 +201,7 @@ Mathematically, in confusion matrix terminology, accuracy can be given as
 `Accuracy = (True Positives + True Negatives)/Total Sample Size`
 
 
-**Precision**
+### Precision
 
 
 Precision is defined as the percentage of relevant observations that were actually belong to a certain class among all the samples 
@@ -214,7 +214,7 @@ Mathematically, it can be given as
 `Precision = True Positives / (True Positives + False Positives)`
 
 
-**Sensitivity or Recall**
+### Sensitivity or Recall
 
 
 Sensitivity or Recall is defined as the percentage of observations that were predicted to belong to a certain class among all the samples that truly belong to that class.
