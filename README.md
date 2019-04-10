@@ -49,22 +49,22 @@ I have divided this project into various sections which are listed below:-
 7. Oversampling methods
 
 
-        - Random oversampling
+      - Random oversampling
         
         
-        - Cluster based oversampling
+      - Cluster based oversampling
         
         
-        - Informative oversampling
+      - Informative oversampling
         
         
 8.	Synthetic data generation
 
 
-        - Synthetic Minority Oversampling Technique (SMOTE)
+      - Synthetic Minority Oversampling Technique (SMOTE)
         
         
-        - Adaptive Synthetic Technique (ADASYN)
+      - Adaptive Synthetic Technique (ADASYN)
         
         
 9.	Cost sensitive learning
