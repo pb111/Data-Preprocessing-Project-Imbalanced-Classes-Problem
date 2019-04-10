@@ -31,40 +31,40 @@ I have divided this project into various sections which are listed below:-
 6.	Undersampling methods
 
 
-       -	Random undersampling
+       - Random undersampling
        
        
-       -	Informative undersampling
+       - Informative undersampling
        
        
-       -	Near miss undersampling
+       - Near miss undersampling
        
        
-       -	Tomek links
+       - Tomek links
        
        
-       -	Edited nearest neighbours
+       - Edited nearest neighbours
        
        
 7.	Oversampling methods
 
 
-        -	Random oversampling
+        - Random oversampling
         
         
-        -	Cluster based oversampling
+        - Cluster based oversampling
         
         
-        -	Informative oversampling
+        - Informative oversampling
         
         
 8.	Synthetic data generation
 
 
-        -	Synthetic Minority Oversampling Technique (SMOTE)
+        - Synthetic Minority Oversampling Technique (SMOTE)
         
         
-        -	Adaptive Synthetic Technique (ADASYN)
+        - Adaptive Synthetic Technique (ADASYN)
         
         
 9.	Cost sensitive learning
