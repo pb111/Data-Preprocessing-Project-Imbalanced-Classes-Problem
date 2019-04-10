@@ -46,7 +46,7 @@ I have divided this project into various sections which are listed below:-
        - Edited nearest neighbours
        
        
-7.	Oversampling methods
+7. Oversampling methods
 
 
         - Random oversampling
