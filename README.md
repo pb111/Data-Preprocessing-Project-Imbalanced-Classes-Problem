@@ -4,6 +4,9 @@
 Imbalanced classification is one of the major problems in machine learning. In this data preprocessing project, I discuss imbalanced classification problem and the approaches to deal with this problem. 
 
 
+============================================================================================================
+
+
 ## Table of Contents
 
 
