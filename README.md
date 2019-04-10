@@ -4,7 +4,7 @@
 Imbalanced classification is one of the major problems in machine learning. In this data preprocessing project, I discuss imbalanced classification problem and the approaches to deal with this problem. 
 
 
-=================================================================================
+================================================================================
 
 
 ## Table of Contents
@@ -79,11 +79,11 @@ I have divided this project into various sections which are listed below:-
 12.	Conclusion
 
 
-
-===========================================================================================================
+================================================================================
 
 
 ## 1. Introduction to imbalanced classification problem
+
 
 Any real world dataset may come along with several problems. The problem of imbalanced class is one of them. The problem of imbalanced classes arises when one set of classes dominate over another set of classes. The former is called majority class while the latter is called minority class. It causes the machine learning model to be more biased towards majority class. It causes poor classification of minority classes. Hence, this problem throw the question of “accuracy” out of question. This is a very common problem in machine learning where we have datasets with a disproportionate ratio of observations in each class.
 
@@ -93,8 +93,12 @@ Now, I will consider an example of imbalanced classification problem to understa
 This is an example of the imbalanced classification problem. Here the number of data points belonging to the minority class (“Disease”) is far smaller than the number of data points belonging to the majority class (“No Disease”).
 
 
+================================================================================
+
 
 ## 2. Problems with imbalanced learning
+
+
 The problem of imbalanced classes is very common and it is bound to happen. For example, in the above example the number of patients who do not have the rare disease is much larger than the number of patients who have the rare disease. So, the model does not correctly classify the patients who have the rare disease. This is where the problem arises.
 The problem of learning from imbalanced data have new and modern approaches. This learning from imbalanced data is referred to as **imbalanced learning**.  
 
@@ -105,10 +109,12 @@ Significant problems may arise with imbalanced learning. These are as follows:-
 3.	There may be inherent complex characteristics in the dataset. Imbalanced learning from such dataset requires new approaches, principles, tools and techniques. But, it cannot guarantee an efficient solution to the business problem.
 
 
-
+================================================================================
 
 
 ## 3. Example of imbalanced classes
+
+
 The problem of imbalanced classes may appear in many areas including the following:-
 
 1.	Disease detection
@@ -117,7 +123,7 @@ The problem of imbalanced classes may appear in many areas including the followi
 4.	Earthquake prediction
 
 
-
+================================================================================
 
 
 ## 4. Classification metrics
@@ -159,14 +165,7 @@ Mathematically, it can be given as
 Recall = True Positives / (True Positives + False Negatives
 
 
-
-
-
-
-
-
-
-
+================================================================================
  
 
 ## 5. Approaches to handle imbalanced classes
@@ -176,6 +175,9 @@ In this section, I will list various approaches to deal with the imbalanced clas
 3.	Synthetic data generation
 4.	Cost sensitive learning
 5.	Ensemble methods
+
+
+================================================================================
 
 
 ## 6. Undersampling methods
@@ -249,6 +251,7 @@ We select a subset of data to be under sampled. For each sample in the subset, t
 This technique is very much similar to Tomek’s links approach. We are not trying to achieve a class imbalance. Instead we try to remove noisy observations in the dataset to make for an easier classification problem.
 
 
+================================================================================
 
 
 ## 7. Oversampling methods
@@ -296,12 +299,12 @@ In informative oversampling, we use a pre-specified criterion and synthetically 
 -	SMOTE is not very effective for high dimensional data.
 
 
+================================================================================
 
 
 ## 8. Synthetic data generation
 
 In synthetic data generation technique, we overcome the data imbalances by generating artificial data. So, it is also a type of oversampling technique.
-
 
 
 ### Synthetic Minority Oversampling Technique or SMOTE.
@@ -321,6 +324,7 @@ So, **SMOTE** generates new observations by interpolation between existing obser
 This technique works in a similar way as SMOTE. But the number of samples generated is proportional to the number of nearby samples which do not belong to the same class. Thus it focusses on outliers when generating the new training samples.
 
 
+================================================================================
 
 
 ## 9. Cost sensitive learning
@@ -329,10 +333,7 @@ Cost sensitive learning is another commonly used method to handle imbalanced cla
 This method does not create balanced data distribution. Rather it focusses on the imbalanced learning problem by using cost matrices which describes the cost for misclassification in a particular scenario. Researches have shown that this cost sensitive learning may outperform sampling methods. So, it provides likely alternative to sampling methods.
 
 
-
-
-
-
+================================================================================
 
 
 ## 10. Algorithmic ensemble methods
@@ -370,10 +371,14 @@ Boosting is an ensemble technique to combine weak learners to create a strong le
 The base learners are weak learners. So, the prediction accuracy is only slightly better than average. A classifier learning algorithm is said to be weak when small changes in data results in big changes in the classification model.
 
 
+================================================================================
+
+
 ## 11. Imbalanced learn
 There is a Python library which enable us to handle the imbalanced datasets. It is called **Imbalanced-Learn**. It is a Python library which contains various algorithms to handle the imbalanced datasets. It can be easily installed with the *pip* command. This library contains a *make_imbalance* method to exasperate the level of class imbalance within a given dataset.
 
 
+================================================================================
 
 
 ## 12. Conclusion
