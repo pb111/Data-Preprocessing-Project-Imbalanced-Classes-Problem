@@ -578,3 +578,28 @@ So, based on above discussion, we can conclude that there is no one solution to 
 
 
 The ideas and concepts in this project are taken from the following websites:-
+
+
+1.	https://imbalanced-learn.org/en/stable/index.html 
+
+
+2.	https://www.analyticsvidhya.com/blog/2017/03/imbalanced-classification-problem/.
+
+
+3.	https://www.analyticsvidhya.com/blog/2016/03/practical-guide-deal-imbalanced-classification-problems/
+
+
+4.	https://www.jeremyjordan.me/imbalanced-data/
+
+
+5.	https://blog.dominodatalab.com/imbalanced-datasets/
+
+
+6.	https://elitedatascience.com/imbalanced-classes
+
+
+7.	https://www.kaggle.com/rafjaa/resampling-strategies-for-imbalanced-datasets
+
+
+8.	https://www.svds.com/learning-imbalanced-classes/
+
