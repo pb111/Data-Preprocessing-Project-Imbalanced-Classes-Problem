@@ -79,6 +79,9 @@ I have divided this project into various sections which are listed below:-
 12.	Conclusion
 
 
+13.    References
+
+
 ================================================================================
 
 
@@ -566,6 +569,10 @@ will vary according to the dataset.
 
 
 So, based on above discussion, we can conclude that there is no one solution to deal with the imbalanced class problem. We should try out multiple methods to select the best-suited sampling techniques for the dataset in hand. The most effective technique will vary according to the characteristics of the dataset.
+
+
+
+
 
 
 
