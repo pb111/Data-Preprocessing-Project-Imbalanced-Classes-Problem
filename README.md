@@ -93,16 +93,20 @@ the latter is called minority class. It causes the machine learning model to be 
 problem in machine learning where we have datasets with a disproportionate ratio of observations in each class.
 
 
-**Imbalanced classification problem** is one of the major problems in the field of data science and machine learning. It is very important that we should properly deal with this problem and develop our machine learning model accordingly.  If this not done, 
+**Imbalanced classes problem** is one of the major problems in the field of data science and machine learning. It is very important 
+that we should properly deal with this problem and develop our machine learning model accordingly.  If this not done, 
 then we may end up with higher accuracy. But this higher accuracy is meaningless because it comes from a meaningless metric which 
 is not suitable for the dataset in question. Hence, this higher accuracy no longer reliably measures model performance.  
 
 
-Now, I will consider an example of **imbalanced classification problem** to understand the problem in depth. Suppose, we are developing a classifier to predict whether a patient has an extremely rare disease. We train the classifier and it yields 99% accuracy on the test set. This is a very high accuracy. But, it is meaningless because it does not measure our model performance to predict whether a patient has an extremely rare disease or not. 
+Now, I will consider an example of **imbalanced classes problem** to understand the problem in depth. Suppose, we are developing a classifier to predict whether a patient has an extremely rare disease. We train the classifier and it yields 99% accuracy on the test set. This is a very high accuracy. But, it is meaningless because it does not measure our model performance to predict whether a patient has an extremely rare disease or not. 
 
 
-As the disease is extremely rare, so there are only 1% of patient who actually have the disease as compared to 99% patients who don’t have the disease. Our classifier returns high level of accuracy simply by returning "No Disease" to every new patient. But the classifier does not fulfil our goal of detecting patients with the rare disease. Hence, it is meaningless.
-This is an example of the imbalanced classification problem. Here the number of data points belonging to the minority class (“Disease”) is far smaller than the number of data points belonging to the majority class ("No Disease").
+As the disease is extremely rare, so there are only 1% of patient who actually have the disease as compared to 99% patients who 
+don’t have the disease. Our classifier returns high level of accuracy simply by returning "No Disease" to every new patient. But 
+the classifier does not fulfil our goal of detecting patients with the rare disease. Hence, it is meaningless.
+This is an example of the imbalanced classification problem. Here the number of data points belonging to the minority class 
+(“Disease”) is far smaller than the number of data points belonging to the majority class ("No Disease").
 
 
 ================================================================================
