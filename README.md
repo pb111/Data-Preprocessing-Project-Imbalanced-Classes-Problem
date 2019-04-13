@@ -1,7 +1,7 @@
-# Data Preprocessing Project – Imbalanced Classification Problem
+# Data Preprocessing Project – Imbalanced Classes Problem
 
 
-Imbalanced classification is one of the major problems in machine learning. In this data preprocessing project, I discuss the imbalanced classification problem. Also, I discuss various approaches to deal with this imbalanced classification problem. 
+Imbalanced classes is one of the major problems in machine learning. In this data preprocessing project, I discuss the imbalanced classes problem. Also, I discuss various approaches to deal with this imbalanced classes problem. 
 
 
 ================================================================================
