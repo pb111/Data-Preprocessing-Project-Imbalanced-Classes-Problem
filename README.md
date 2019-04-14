@@ -10,7 +10,7 @@ Imbalanced classes is one of the major problems in machine learning. In this dat
 ## Table of Contents
 
 
-I have divided this project into various sections which are listed below:-
+I have divided this project into various sections which are listed in the table of contents below:-
 
 
 1.	Introduction to imbalanced classes problem
