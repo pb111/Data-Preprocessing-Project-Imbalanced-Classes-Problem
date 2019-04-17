@@ -238,6 +238,9 @@ Mathematically, it can be given as
 `Recall = True Positives / (True Positives + False Negatives)`
 
 
+![Recall](https://github.com/pb111/Data-Preprocessing-Project-Imbalanced-Classes-Problem/blob/master/Images/Recall.png)
+
+
 ===============================================================================
  
 
