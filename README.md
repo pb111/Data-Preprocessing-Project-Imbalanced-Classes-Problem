@@ -187,7 +187,8 @@ Four types of outcomes are possible while evaluating a classification model perf
 These four outcomes are summarized in a confusion matrix given below.
 
 
-# Image – Confusion Matrix
+![Confusion Matrix](https://github.com/pb111/Data-Preprocessing-Project-Imbalanced-Classes-Problem/blob/master/Images/Confusion%20matrix%20.png)
+
 
 
 Three metrics are used to evaluate a classification model performance. These are accuracy, precision and recall. These matrices are summarized below.
