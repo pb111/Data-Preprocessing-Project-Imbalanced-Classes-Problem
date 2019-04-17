@@ -4,7 +4,7 @@
 Imbalanced classes is one of the major problems in machine learning. In this data preprocessing project, I discuss the imbalanced classes problem. Also, I discuss various approaches to deal with this imbalanced classes problem. 
 
 
-================================================================================
+===============================================================================
 
 
 ## Table of Contents
@@ -82,7 +82,7 @@ I have divided this project into various sections which are listed in the table 
 13.    References
 
 
-================================================================================
+===============================================================================
 
 
 ## 1. Introduction to imbalanced classification problem
@@ -109,7 +109,7 @@ This is an example of the imbalanced classification problem. Here the number of 
 (“Disease”) is far smaller than the number of data points belonging to the majority class ("No Disease").
 
 
-================================================================================
+===============================================================================
 
 
 ## 2. Problems with imbalanced learning
@@ -134,7 +134,7 @@ Significant problems may arise with imbalanced learning. These are as follows:-
 3.	There may be inherent complex characteristics in the dataset. Imbalanced learning from such dataset requires new approaches, principles, tools and techniques. But, it cannot guarantee an efficient solution to the business problem.
 
 
-================================================================================
+===============================================================================
 
 
 ## 3. Example of imbalanced classes
@@ -155,7 +155,7 @@ The problem of imbalanced classes may appear in many areas including the followi
 4.	Earthquake prediction
 
 
-================================================================================
+===============================================================================
 
 
 ## 4. Classification metrics
@@ -191,7 +191,7 @@ These four outcomes are summarized in a confusion matrix given below.
 
 
 
-Three metrics are used to evaluate a classification model performance. These are accuracy, precision and recall. These matrices are summarized below.
+There are three metrices which are used to evaluate a classification model performance. These are `accuracy`, `precision` and `recall`. These matrices are summarized below.
 
 
 ### Accuracy
@@ -234,7 +234,7 @@ Mathematically, it can be given as
 `Recall = True Positives / (True Positives + False Negatives)`
 
 
-================================================================================
+===============================================================================
  
 
 ## 5. Approaches to handle imbalanced classes
@@ -258,7 +258,7 @@ In this section, I will list various approaches to deal with the imbalanced clas
 5.	Ensemble methods
 
 
-================================================================================
+===============================================================================
 
 
 ## 6. Undersampling methods
@@ -361,7 +361,7 @@ We select a subset of data to be under sampled. For each sample in the subset, t
 This technique is very much similar to Tomek’s links approach. We are not trying to achieve a class imbalance. Instead we try to remove noisy observations in the dataset to make for an easier classification problem.
 
 
-================================================================================
+==============================================================================
 
 
 ## 7. Oversampling methods
@@ -443,7 +443,7 @@ is followed to avoid overfitting which occurs when exact replicas of minority in
 -	SMOTE is not very effective for high dimensional data.
 
 
-================================================================================
+===============================================================================
 
 
 ## 8. Synthetic data generation
@@ -480,7 +480,7 @@ This technique works in a similar way as SMOTE. But the number of samples genera
 samples which do not belong to the same class. Thus it focusses on outliers when generating the new training samples.
 
 
-================================================================================
+===============================================================================
 
 
 ## 9. Cost sensitive learning
@@ -492,7 +492,7 @@ Cost sensitive learning is another commonly used method to handle imbalanced cla
 This method does not create balanced data distribution. Rather it focusses on the imbalanced learning problem by using cost matrices which describes the cost for misclassification in a particular scenario. Researches have shown that this cost sensitive learning may outperform sampling methods. So, it provides likely alternative to sampling methods.
 
 
-================================================================================
+===============================================================================
 
 
 ## 10. Algorithmic ensemble methods
@@ -548,16 +548,16 @@ In boosting, we start with a base or weak classifier that is prepared on the tra
 The base learners are weak learners. So, the prediction accuracy is only slightly better than average. A classifier learning algorithm is said to be weak when small changes in data results in big changes in the classification model.
 
 
-================================================================================
+===============================================================================
 
 
-## 11. Imbalanced learn
+## 11. Imbalanced Learn
 
 
 There is a Python library which enable us to handle the imbalanced datasets. It is called **Imbalanced-Learn**. It is a Python library which contains various algorithms to handle the imbalanced datasets. It can be easily installed with the *pip* command. This library contains a *make_imbalance* method to exasperate the level of class imbalance within a given dataset.
 
 
-================================================================================
+===============================================================================
 
 
 ## 12. Conclusion
@@ -576,7 +576,7 @@ will vary according to the dataset.
 So, based on above discussion, we can conclude that there is no one solution to deal with the imbalanced class problem. We should try out multiple methods to select the best-suited sampling techniques for the dataset in hand. The most effective technique will vary according to the characteristics of the dataset.
 
 
-================================================================================
+==============================================================================
 
 
 ## 13. References
