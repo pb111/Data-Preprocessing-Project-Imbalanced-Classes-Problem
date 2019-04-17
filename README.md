@@ -222,6 +222,10 @@ Mathematically, it can be given as
 `Precision = True Positives / (True Positives + False Positives)`
 
 
+![Precision](https://github.com/pb111/Data-Preprocessing-Project-Imbalanced-Classes-Problem/blob/master/Images/Precision.png)
+
+
+
 ### Sensitivity or Recall
 
 
