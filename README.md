@@ -351,10 +351,14 @@ In NearMiss-2 sampling technique, we select samples from the majority class for 
 ### Tomek links
 
 
-A Tomeks link can be defined as the two observations of different classes which are nearest neighbours of each other.
+A Tomeks link can be defined as the set of two observations of different classes which are nearest neighbours of each other.
 
 
-The figure below illustrate the concept of Tomek links
+The figure below illustrate the concept of Tomek links.
+
+
+![Tomek Links](https://github.com/pb111/Data-Preprocessing-Project-Imbalanced-Classes-Problem/blob/master/Images/Tomek%20links.png)
+
 
 
 We can see in the above image that the Tomek links (circled in green) are given by the pairs of red and blue data points that are nearest neighbors. Most of the classification algorithms face difficulty due to these points. So, we will remove these points and increase the separation gap between two classes.  Now, the algorithms produce more reliable output.
