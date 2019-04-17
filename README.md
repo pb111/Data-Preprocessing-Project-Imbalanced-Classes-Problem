@@ -334,6 +334,10 @@ In NearMiss-1 sampling technique, we select samples from the majority class for 
 of a minority class is smallest.
 
 
+![NearMiss-1](https://github.com/pb111/Data-Preprocessing-Project-Imbalanced-Classes-Problem/blob/master/Images/NearMiss-1.png)
+
+
+
 #### NearMiss-2
 
 
