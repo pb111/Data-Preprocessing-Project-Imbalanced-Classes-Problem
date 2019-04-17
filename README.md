@@ -492,6 +492,12 @@ In the context of synthetic data generation, there is a powerful and widely used
 So, **SMOTE** generates new observations by interpolation between existing observations in the dataset.
 
 
+
+![Synthetic Minority Oversampling Technique or SMOTE](https://github.com/pb111/Data-Preprocessing-Project-Imbalanced-Classes-Problem/blob/master/Images/smote.png)
+
+
+
+
  ### Adaptive Synthetic Technique or ADASYN
  
 
