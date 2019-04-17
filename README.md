@@ -344,6 +344,10 @@ of a minority class is smallest.
 In NearMiss-2 sampling technique, we select samples from the majority class for which the average distance of the N farthest samples of a minority class is smallest.
 
 
+![NearMiss-2](https://github.com/pb111/Data-Preprocessing-Project-Imbalanced-Classes-Problem/blob/master/Images/NearMiss-2.png)
+
+
+
 ### Tomek links
 
 
