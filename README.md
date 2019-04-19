@@ -85,7 +85,7 @@ I have divided this project into various sections which are listed in the table 
 ===============================================================================
 
 
-## 1. Introduction to imbalanced classification problem
+## 1. Introduction to imbalanced classes problem
 
 
 Any real world dataset may come along with several problems. The problem of **imbalanced classes** is one of them. The problem of imbalanced classes arises when one set of classes dominate over another set of classes. The former is called majority class while 
